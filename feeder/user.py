@@ -1,4 +1,3 @@
-from tkinter import N
 from typing import Iterator, List
 
 from config.constants import SETTINGS
