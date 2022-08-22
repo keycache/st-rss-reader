@@ -1,7 +1,14 @@
 ## Streamlit RSS Reader
 
 # Introduction
-  Proof of concept `rss feed reader`. This demo app is built using 
+  The [RSS Feed Reader](https://keycache-st-rss-reader-runner-083b2u.streamlitapp.com/) is hosted on **Streamlit** at https://keycache-st-rss-reader-runner-083b2u.streamlitapp.com/
+
+  This is just a proof of concept for a `rss feed reader`. Main goal of this implementation was
+  * validate the claim of "quick implementation"
+  * to check `streamlit`'s `session_state` to manage the application state
+  * validate `streamlit`'s simplicity in managings `state` and `components` while at the same time, interacting with web resources.
+
+  This demo app is built using 
   * python (and the below modules)
 	  * `streamlit`
 		  * `streamlit-option-menu`
